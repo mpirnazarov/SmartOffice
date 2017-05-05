@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <classPathEntry location="C:\postgre.jar" />
+
+    <context id="DB2Tables" targetRuntime="MyBatis3">
+        <jdbcConnection driverClass="org.postgresql.Driver"
+                        connectionURL="jdbc:postgresql://localhost:5432/SmartOfficeDevelop"
+                        userId="postgres"
+                        password="M199128p">
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="main.java.com.smartoffice.hr.model" targetProject="\Projects\smartoffice\src">
+            <property name="enableSubPackages" value="false" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+
+        <!--<sqlMapGenerator targetPackage="main.java.com.smartoffice.hr.mappers"  targetProject="\Projects\smartoffice\src">
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="ANNOTATEDMAPPER" targetPackage="main.java.com.smartoffice.hr.service"  targetProject="\Projects\smartoffice\src">
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>-->
+        <table  schema="hr" tableName="certificates" />
+        <table  schema="hr" tableName="currency" />
+        <table  schema="hr" tableName="departments" />
+        <table  schema="hr" tableName="documents" />
+        <table  schema="hr" tableName="educations_user" />
+        <table  schema="hr" tableName="externals" />
+        <table  schema="hr" tableName="family_infos" />
+        <table  schema="hr" tableName="job_titles" />
+        <table  schema="hr" tableName="languages" />
+        <table  schema="hr" tableName="personal_evaluations" />
+        <table  schema="hr" tableName="roles_user" />
+        <table  schema="hr" tableName="salary_histories" />
+        <table  schema="hr" tableName="statuses" />
+        <table  schema="hr" tableName="trainings" />
+        <table  schema="hr" tableName="user_in_languages" />
+        <table  schema="hr" tableName="user_in_posts" />
+        <table  schema="hr" tableName="users" />
+
+
+    </context>
+</generatorConfiguration>

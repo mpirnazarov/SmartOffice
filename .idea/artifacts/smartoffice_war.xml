@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="smartoffice:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="smartoffice.war">
+      <element id="artifact" artifact-name="smartoffice:war exploded" />
+    </root>
+  </artifact>
+</component>

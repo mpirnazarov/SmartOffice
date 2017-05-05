@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="LgErpSystem@192.168.1.77" uuid="ebd85765-4717-46ae-860d-b251921bb2d1">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.1.77:5432/LgErpSystem</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="SmartOfficeDevelop@localhost" uuid="45189c9f-d3e7-4738-a89d-8e16533d042c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/SmartOfficeDevelop</jdbc-url>
+    </data-source>
+  </component>
+</project>
